@@ -4,4 +4,9 @@
     <string name="insira_sua_senha">Insira sua senha</string>
     <string name="entrar">Entrar</string>
     <string name="sair">Sair</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="senha">Senha</string>
+    <string name="recuperar_senha">Recuperar senha</string>
+    <string name="login">Login</string>
+    <string name="facebook">Facebook</string>
 </resources>
