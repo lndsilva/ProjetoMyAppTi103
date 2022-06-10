@@ -6,9 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".CategoriasActivity">
 
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemGato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gato" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemCachorro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cachorro" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/itemPassaro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passáro" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+        android:layout_gravity="bottom"
+        app:backgroundTint="#E64A19"
+        app:menu="@menu/menu_bottom_view" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

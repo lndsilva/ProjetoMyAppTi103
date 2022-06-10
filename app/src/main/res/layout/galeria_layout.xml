@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|right"
         android:layout_margin="10dp"
-        android:backgroundTint="#06934C"
         android:contentDescription="@string/bot_o_de_chat_da_galeria"
         android:src="@drawable/ic_baseline_chat" />
 
