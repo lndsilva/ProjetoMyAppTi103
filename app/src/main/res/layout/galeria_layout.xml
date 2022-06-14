@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".GaleriaActivity">
 
+    <include layout="@layout/card_cachorro"/>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabGaleria"
         android:layout_width="wrap_content"
